@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# ML / AI artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+wandb/
+mlruns/
+runs/
+
+# Database (generated / rebuildable)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Generated vector stores (rebuildable from source data)
+chatbot/vector_db/
+shopping_assistant/db/chroma/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Direnv
+.envrc
+
+# Node / Frontend
+node_modules/
+dist/
+
+# Large datasets (keep source code; adjust paths as needed)
+pytorch/ChnSentiCorp/
